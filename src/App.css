@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  color:dodgerblue;
+  place-content: center;
+  place-items: center;
 }
 
 .App-logo {
@@ -35,4 +38,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Wraps{background-image: url(img/digital-service1\ \(1\).png);
+  position:relative;
+}
+#Bimage{
+  position:absolute;
+  top:10px;
+  left:10px;
+}
+.flexy{
+  display:flex;
+  color:red;
+}
+#z{
+  z-index:1;
+  margin-top: -97px;
+}
+img{
+  
+width:25%;
+}
+.flex{
+  display:flex;
 }
