@@ -16,11 +16,11 @@ const Hero2=()=>{
 </div>)}
 
 
-const Img=()=>{
+/*const Img=()=>{
     return(<>
     <img src={img2}/>
     </>)
-}
+}*/
 
 const Section4=()=>{
     return(
