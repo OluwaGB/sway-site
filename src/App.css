@@ -102,7 +102,7 @@ place-content:right;
 padding:10px;
 width:40%;
 }
-#img{width:60%;
+#img{width:80%;
   
 }
 button{
@@ -111,6 +111,7 @@ button{
   border-radius:10px;
   padding:15px;
   border: none;
+  font-size:16px;
 width:30%;
 }
 #btn2{color:rgb(133, 122, 242);
@@ -132,14 +133,17 @@ width:30%;
   padding-bottom:30px4
 }
 
-h2,h3,h4,h5,p{
+h1,h2,h3,h4,h5,p{
   color:black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
+h2{color:black;
   font-size:32px;
   font-weight:600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{font-size:18px;
+
 }
 h{
   font-size:24px;
@@ -163,5 +167,12 @@ h{
   padding-top: 50px;
 
 }
+.card{width:20%;}
 .grid{background-color: #FFFFFF;
 padding:20px;}
+#images{
+width:5%;
+height:5%;
+}
+.flex{display:flex;
+justify-content: space-around;}
