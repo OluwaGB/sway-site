@@ -7,27 +7,27 @@ import './App.css'
 
 const Hero2=()=>{
     return(<div className='hero'>
-            <button id="btn">Partner for web product</button>
+            <button id="btn1">Partner for web product</button>
             
-            <h1>We partner with companies to bring clarity to<br/> their brand</h1>
+            <h1>We partner with companies to <br/>bring clarity to their brand</h1>
             <p>We develop enjoyable consumer experiences, from digital strategy and <br/>
                 content to media and analysis. Leading to meaningful results and satisfied<br/> clients.</p>
-<button id="btn3">Process</button>
+<button id="btn2">Process</button>
 </div>)}
 
 
-const Img=(props)=>{
+/*const Img=(props)=>{
     return(<>
     <img src={props.img}/>
     </>)
-}
+}*/
 
 const Section4=()=>{
     return(
-        <>
+        <div className='sct4'>
         <h2>A founder-first branding agency</h2>
         <h>We believe scaling startups require a radically different kind of agency</h>
-        </>
+        </div>
     )
 }
 
@@ -42,4 +42,4 @@ const Card=(props)=>{
 }
 
 
-export{Section4,Card,Img,Hero2}
+export{Section4,Card,Hero2}

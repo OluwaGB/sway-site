@@ -19,7 +19,7 @@ import './App.css'
 const Article = (props)=>{
     return(
 <div id="card1">
-<div className='cardbadge'>SOLD OUT</div>
+<div className='cardbadge'>Review</div>
 <img id ="fImage"src={props.img}/>
 <h4>{props.rating}</h4>
 <p>{props.reviews}</p>
