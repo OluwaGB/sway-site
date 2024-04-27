@@ -16,15 +16,15 @@ const Hero2=()=>{
 </div>)}
 
 
-/*const Img=(props)=>{
+const Img=(props)=>{
     return(<>
-    <img src={props.img}/>
+    <img src={img2}/>
     </>)
 }*/
 
 const Section4=()=>{
     return(
-        <div className='sct4'>
+        <>
         <h2>A founder-first branding agency</h2>
         <h>We believe scaling startups require a radically different kind of agency</h>
         </div>
@@ -42,4 +42,4 @@ const Card=(props)=>{
 }
 
 
-export{Section4,Card,Hero2}
+export{Section4,Card,Img,Hero2}

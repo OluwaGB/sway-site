@@ -99,7 +99,11 @@ width:25%;
 }
 .wrap1{background-image:url(img/digital-service1\ \(1\).png) ;
 place-content:right;
+<<<<<<< HEAD
 height:40%;
+=======
+padding:10px;
+>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
 width:40%;
 }
 #img{width:80%;
@@ -141,6 +145,7 @@ h2{color:black;
   font-size:32px;
   font-weight:600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+<<<<<<< HEAD
   list-style: none;
   line-height: 37px;
 }
@@ -153,6 +158,17 @@ h{line-height: 28px;
 }
 .column,#card1{
   background-color:rgb(250, 249, 247);
+=======
+}
+p{font-size:18px;
+
+}
+h{
+  font-size:24px;
+}
+.column,#card1{
+  background-color: rgb(243, 241, 238);
+>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
   padding:10px;
   border-radius:10px;
   border-style: outset;
@@ -179,6 +195,7 @@ height:5%;
 }
 .flex{display:flex;
 justify-content: space-around;}
+<<<<<<< HEAD
 .column1{
   text-align: left;
   
@@ -307,3 +324,5 @@ color:white;
     border:1px solid #777AF2; ;
   
 }
+=======
+>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
