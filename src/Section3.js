@@ -16,7 +16,7 @@ const Hero2=()=>{
 </div>)}
 
 
-const Img=(props)=>{
+/*const Img=(props)=>{
     return(<>
     <img src={img2}/>
     </>)
@@ -24,7 +24,7 @@ const Img=(props)=>{
 
 const Section4=()=>{
     return(
-        <>
+        <div>
         <h2>A founder-first branding agency</h2>
         <h>We believe scaling startups require a radically different kind of agency</h>
         </div>
@@ -35,8 +35,8 @@ const Card=(props)=>{
     return(
         <div className="flex">
         <img src={props.img}/>
-       <> <h2>{props.headings}</h2>
-        <p>{props.text}</p></>
+       <div> <h2>{props.headings}</h2>
+        <p>{props.text}</p></div>
         </div>
     )
 }

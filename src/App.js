@@ -3,6 +3,7 @@ import './App.css';
 import Hero from './Hero.js'
 import Section1 from './Section1'
 import Column from './Column'
+import Img from './Img.js';
 import {Section4,Card,Hero2} from './Section3.js'
 import Article from './NewCards.js'
 import img1 from './img/digital-service2 (2).png'
