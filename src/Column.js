@@ -10,4 +10,12 @@ const Coloumn=(props)=>{
         </div>)
 
 }
-export default Coloumn
+const  Count=(props)=>{
+    return(
+        <div>
+        <h2 id="count">{props.number}</h2>
+    <p id="counterP">{props.text}</p>
+        </div>
+    )
+}
+export {Count,Coloumn}

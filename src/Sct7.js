@@ -1,4 +1,5 @@
 import React from 'react'
+import img32 from "./img/homeport.jpg"
 
 function Sct7() {
   return (
@@ -21,4 +22,10 @@ function Portfolio(props){
     )
 
 }
-export {Sct7,Portfolio}
+/*export {Sct7,Portfolio}*/
+const Reusables=(props)=>{
+  return(
+    <img  src={img32}/>
+  )
+}
+export {Sct7,Portfolio,Reusables}

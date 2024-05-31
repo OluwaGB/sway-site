@@ -42,4 +42,4 @@ const Card=(props)=>{
 }
 
 
-export{Section4,Card,Img,Hero2}
+export{Section4,Card,Hero2}

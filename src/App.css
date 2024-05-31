@@ -42,14 +42,14 @@
 .navs{
   display:flex;
   justify-content: space-between;
-  margin:0px 20px 0px 20px;
+  margin:0px 0px 0px 50px;
   
 }
 .navbar{
   display:flex;
   margin:10px;
   justify-content: space-around;
-  margin-left:-80px;
+  margin-left:-60px;
 }
 a{text-decoration: none;
 margin:5px;}
@@ -92,6 +92,7 @@ width:25%;
   text-align: center;
   justify-content: space-around;
   padding-bottom: 60px;
+
   
 }
 .sct4{margin-bottom: 50px;
@@ -99,12 +100,12 @@ width:25%;
 }
 .wrap1{background-image:url(img/digital-service1\ \(1\).png) ;
 place-content:right;
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 height:40%;
-=======
+/*=======*/
 padding:10px;
->>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
-width:40%;
+/*>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d*/
+/*width:40%;*/
 }
 #img{width:80%;
   
@@ -126,7 +127,7 @@ width:30%;
   text-align: left;
 
 }
-.flexy1{
+.flexy1,.flexy{
   background-color: #EFEFF1;
   padding-top: 80px;
   padding-bottom: 100px;
@@ -145,7 +146,7 @@ h2{color:black;
   font-size:32px;
   font-weight:600;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
   list-style: none;
   line-height: 37px;
 }
@@ -158,7 +159,7 @@ h{line-height: 28px;
 }
 .column,#card1{
   background-color:rgb(250, 249, 247);
-=======
+/*=======*/
 }
 p{font-size:18px;
 
@@ -168,7 +169,7 @@ h{
 }
 .column,#card1{
   background-color: rgb(243, 241, 238);
->>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
+/*>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d*/
   padding:10px;
   border-radius:10px;
   border-style: outset;
@@ -195,7 +196,7 @@ height:5%;
 }
 .flex{display:flex;
 justify-content: space-around;}
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 .column1{
   text-align: left;
   
@@ -212,7 +213,7 @@ ul li{
   width:50%;
 }
   
-  .flex{background-color: #EFEFF1;
+  .flex{justify-content: space-around;
   margin-top:40px;
 margin-bottom:40px;
 padding-top: 60px;
@@ -324,5 +325,40 @@ color:white;
     border:1px solid #777AF2; ;
   
 }
-=======
->>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d
+/*My debugging css*/
+#img1{
+  height:305;
+}
+.imgBackground{
+  background-image: url(img/digital-service1\ \(1\).png);
+}
+.navigation{
+  display:flex;
+  justify-content: space-between;
+}
+.flexys{
+  display:flex;
+  justify-content:space-around;
+  padding:auto;
+  margin-top: 20px;
+}
+#article{
+  margin:10px;
+}
+#picture{
+  width:100%;
+}
+#btn2{align-content: left;
+  margin-left: -30px;
+  align-items: flex-start;
+}
+.column1{
+  text-align:left;
+  place-content:left;
+  place-items:left;
+}
+#count{
+  color:#8D95F8;
+}
+/*=======*/
+/*>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d*/

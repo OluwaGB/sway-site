@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 import React from 'react'
 import './App.css'
 
@@ -11,7 +11,7 @@ const Counter=(props)=>{
     )
 }
 
-=======
+=======*/
 import React from 'react'
 import './App.css'
 

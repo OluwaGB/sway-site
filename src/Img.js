@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import img3 from "./img/image.jpg"
+/*import img3 from "./img/table.jpg"*/
 import img2 from "./img/digital-service2 (2).png"
 
 /*const Img=( )=>{
@@ -13,11 +13,12 @@ const Imgs=()=>{
     <img id="img" src={img3}/>
     </div>)
 }*/
-const Img=(props)=>{
-    return(
-        <img id="imgs1" src={props.img}/>    )
+const Img =()=>{
+    return(<div className='imgBackground'>
+        <img id="imgs1" src={img2}/>
+    </div>)
 }
-export default Img
+export default Img;
 /*import React from 'react'
 import './App.css'
 import img3 from "./img/image.jpg"
