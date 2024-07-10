@@ -410,7 +410,8 @@ p{font-size:14px;}
 .column,#article{padding:10px;
 width:100%;
 border-style: none;}
-#sct4{padding:20px;
+h3{text-align:center}
+#sct4{padding:30px;
 text-align: center;}
 .column:hover{background-color: #e7e7e9;}
 .column1{text-align: center;}

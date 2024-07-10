@@ -3,8 +3,9 @@ import './App.css'
 //import img24 from './img/image.jpg'
 const Sct4=()=>{
     return(
-        <h3>TRUSTED BY FORWARD-THINKING  SOFTWARE TEAMS AROUND THE WORLD
+        <div id="sct4"><h3>TRUSTED BY FORWARD-THINKING  SOFTWARE TEAMS AROUND THE WORLD
         </h3>
+        </div>
     )
 }
 const Images=(props)=>{
