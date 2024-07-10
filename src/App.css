@@ -368,7 +368,10 @@ color:white;
 @media only screen and (max-width: 900px){
 nav a{display:none;}
 button{padding:10px;
-width:auto;}
+width:50%;}
+button:hover{background-color:transparent;
+  border:1px solid rgb(133, 122, 242);}
+  
 .navbar button{width:auto;
 padding:5px;}
 .navbar button:hover{background-color:transparent;
@@ -407,7 +410,9 @@ p{font-size:14px;}
 .column,#article{padding:10px;
 width:100%;
 border-style: none;}
+.sct4{padding:20px;}
 .column:hover{background-color: #e7e7e9;}
+.column1{text-align: center;}
 #article:hover{background-color: #e7e7e9;}
 /*.counter:hover{background-color: #8D95F8;
 color:white;
@@ -415,7 +420,7 @@ width:100%}
 .counter h2{color:white;}
 .counter p{color:white;}*/
 #card1{width:100%;}
-.footer{padding:50px;}
+.footer{padding:60px;}
 .footer h3{font-size:20px;}
 .footer h2{font-size:26px;}
 

@@ -51,7 +51,7 @@ function App() {
       </div>
       <div className="flex"><Article id="article" rating={5.0} price={"$"+30} reviews="A qualityproduct" img={img9}/>
       <Article id="article" rating={5.0} price={"$"+30} reviews="A qualityproduct" img={img8}/></div>
-      <Sct4/>
+      <Sct4 id="sct4"/>
     <Images/>
     <div className='flexy'>
       <Section5/>
