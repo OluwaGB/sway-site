@@ -12,7 +12,7 @@ const Coloumn=(props)=>{
 }
 const  Count=(props)=>{
     return(
-        <div>
+        <div className='counter'>
         <h2 id="count">{props.number}</h2>
     <p id="counterP">{props.text}</p>
         </div>

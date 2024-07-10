@@ -57,9 +57,9 @@ function App() {
       <Section5/>
       <Picture  img={img32}/>
     </div>
-   <div className="flexys"><Count number="100+" text="Completed project"/>
-    <Count number="20+" text="Years of experience"/>
-   <Count number="150%" text="Delivery rate"/> <Count number="100+" text="Satisfied customers"/>
+   <div className="flexys"><Count id="counter" number="100+" text="Completed project"/>
+    <Count id="counter" number="20+" text="Years of experience"/>
+   <Count id="counter" number="150%" text="Delivery rate"/> <Count id="counter" number="100+" text="Satisfied customers"/>
 
    </div> 
    '

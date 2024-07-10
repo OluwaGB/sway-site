@@ -45,12 +45,17 @@
   margin:0px 0px 0px 50px;
   
 }
-.navbar{
-  display:flex;
+.navbar{text-align: center;
   margin:10px;
-  justify-content: space-around;
-  margin-left:-60px;
+ text-align: center;
+ display:flex;
+  
 }
+nav a{text-align: center;
+margin:10px;}
+nav{text-align: center;
+float:center;}
+.navbar button{float:right;}
 a{text-decoration: none;
 margin:5px;}
 .nav{
@@ -306,19 +311,19 @@ background-attachment: scroll;
 background-blend-mode: overlay;
 background-color: rgb(54, 54, 54);
 background-position: cover;
-padding:150px;
+padding:50px;
 color:white;
 }
 #footertext,#footertext1{
   color:white;
 }
 #Fbtn{
-  width:10%;
+  width:auto;
 
 }
 #Fbtn:hover{
   color:#777AF2;
-    width:10%;
+    width:auto;
     background-attachment: fixed;
     background-color: transparent;
     
@@ -359,6 +364,61 @@ color:white;
 }
 #count{
   color:#8D95F8;
+}
+@media only screen and (max-width: 900px){
+nav a{display:none;}
+button{padding:10px;
+width:auto;}
+.navbar button{width:auto;
+padding:5px;}
+.navbar button:hover{background-color:transparent;
+border:1px solid rgb(133, 122, 242);}
+
+.flexy3{display:grid;
+padding:20px;}
+.flexy2,.flexy,.flex,.flexys{display:grid;
+text-align: center;}
+.hero{padding:45px;}
+span{display:grid;}
+.hero button{margin:5px;
+padding:5px;}
+#btn,#btn2{margin:5px;
+  width:50%;
+  float:left;
+padding:5px;}
+/*#Bimage{width:100%;}*/
+#btn2:hover{
+  background-color:rgb(133, 122, 242);
+  color:white;
+  border-radius:10px;
+  padding:5px;
+  border: none;
+  font-size:16px;
+width:30%;
+}
+button:hover{color:rgb(133, 122, 242);
+
+  background-color: rgb(226, 227, 252);
+}
+h1{font-size:22px;}
+p{font-size:14px;}
+.sct1{padding:50px;}
+.sct1 h1{}
+.column,#article{padding:10px;
+width:100%;
+border-style: none;}
+.column:hover{background-color: #e7e7e9;}
+#article:hover{background-color: #e7e7e9;}
+/*.counter:hover{background-color: #8D95F8;
+color:white;
+width:100%}
+.counter h2{color:white;}
+.counter p{color:white;}*/
+#card1{width:100%;}
+.footer{padding:50px;}
+.footer h3{font-size:20px;}
+.footer h2{font-size:26px;}
+
 }
 /*=======*/
 /*>>>>>>> 9d36bdd8831f73462aa014805dfddfe616eac13d*/

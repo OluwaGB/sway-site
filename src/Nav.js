@@ -9,11 +9,11 @@ const Navbar=()=>{return(<div className='nav'>
 }
 const Navbar2=()=>{
     return(<div className='navbar'>
-       <> <a href="#">Home</a>
+       <nav> <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Service</a>
         <a href="#">Portfolio</a>
-        <a href="#">Pricing</a></>
+        <a href="#">Pricing</a></nav>
        <> <button id="navbtn">Contact Us</button></>
     </div>)
 }
